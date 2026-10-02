@@ -54,6 +54,10 @@ Thanks to the authors of the SBND & ICARUS Newbie Guides from which we ported so
 - [Available Samples](Samples_List.md)
   *A list of available sample samweb definitions and instructions on how to access those samples*
 
+## Data Management: SAM and Tape ##
+- [SAM and Tape for SBND Users](sam-and-tape-howto.md)  
+  *Put your own files into the SAM catalog and onto Fermilab tape: writing and declaring metadata, adding file locations, checking the tape state, copying files to tape*
+
 ## Miscellaneous Experiment Stuff ##
 - [The Working Groups](Working_Groups.md)  
   *A quick introduction into the work done by the various working groups that make up SBN/SBND/ICARUS*
