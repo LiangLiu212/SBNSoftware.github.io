@@ -143,9 +143,9 @@ Use a node with `/pnfs` mounted (sbndgpvm, sbndbuild). Tokens: the first
 Kerberos ticket without a browser.
 
 ```bash
-source /cvmfs/fermilab.opensciencegrid.org/packages/common/setup-env.sh
-spack load /wqczc57                  # sam-web-client@3.6 on AL9; plain "sam-web-client@3.6" is ambiguous
-export SAM_EXPERIMENT=sbnd           # or sbn; or pass -e <instance> per command
+source /cvmfs/sbn.opensciencegrid.org/spack-sbn-v1.1.1/setup-env.sh
+spack load --first sam-web-client@3.6   # several identical 3.6 installs exist; without --first the load is ambiguous
+export SAM_EXPERIMENT=sbnd              # or sbn; or pass -e <instance> per command
 
 kinit                                                        # if klist -s fails
 export BEARER_TOKEN_FILE=/run/user/$(id -u)/bt_u$(id -u)
